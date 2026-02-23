@@ -1,49 +1,57 @@
-# 💼 HR Portal – Front-End Project
+# 💼 HR Portal – Front-End Web Application
 
-## 📌 Project Overview
+## 📌 Project Description
 
-The **HR Portal** is a responsive front-end web application designed to simulate an employee self-service portal.
-It provides a secure login interface, employee dashboard visualization, and interactive policy viewing using modal popups.
+The **HR Portal** is a front-end web application that simulates an employee self-service system.
+It includes a secure login page, an HR dashboard with key employee metrics, and interactive policy sections displayed through modal popups.
 
-This project demonstrates modern UI design, component structuring, and front-end development fundamentals.
+The project focuses on building a visually appealing neon-themed UI while implementing dashboard layout design and modal-based interactions using pure HTML and CSS.
 
 ---
 
 ## 🚀 Features
 
-* 🔐 **Employee Login Interface**
+### 🔐 Login System
 
-  * Clean neon-themed login card
-  * Input validation
-  * Demo credentials for testing
+* Employee login interface
+* Input validation using required fields
+* Demo credentials for quick access
+* Neon-themed login card design
 
-* 📊 **HR Dashboard**
+### 📊 HR Dashboard
 
-  * Attendance visualization
-  * Leaves used tracker
-  * Performance indicator
-  * Compliance status
+* Attendance progress visualization
+* Leave usage tracker
+* Performance indicator
+* Compliance status display
+* Responsive KPI card layout
 
-* 📑 **Policy Management**
+### 📑 Policy Section
 
-  * Attendance Policy modal
-  * Leave Policy modal
-  * Code of Conduct modal
-  * Terms & Conditions agreement checkbox
+Each policy opens inside a modal popup:
 
-* 🎨 **Modern UI**
+* Attendance Policy
+* Leave Policy
+* Code of Conduct
+* Terms & Conditions checkbox validation
+* Close action for modal navigation
 
-  * Neon color theme
-  * Card-based layout
-  * Responsive design
-  * Smooth modal interactions
+### 🎨 UI Highlights
+
+* Neon gradient buttons
+* Card-based layout design
+* CSS conic-gradient circular progress
+* Hover animation effects
+* CSS variables for theme consistency
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **HTML5** – Structure
-* **CSS3** – Styling and layout
+* **HTML5** → Page structure
+* **CSS3** → Styling and layout
+* **Pure CSS Modals** → Interaction without JavaScript
+
 ---
 
 ## 🖥️ Demo Credentials
@@ -60,40 +68,41 @@ Password: admin123
 ```
 HR-Portal/
 │
-├── login.html
-├── dashboard.html
-├── style.css
+├── login.html        # Employee login page
+├── dashboard.html    # Dashboard with KPIs & policies
+├── style.css         # Neon theme and layout styling
 └── README.md
 ```
 
 ---
 
-## 🎯 Learning Outcomes
+## 🎯 Key Concepts Demonstrated
 
-* Front-end layout design
+* Dashboard UI design
+* Modal implementation using :target selector
 * CSS variables and theming
-* Dashboard UI creation
-* Modal implementation
-* Form handling basics
+* Conic-gradient circular indicators
+* Form structure and navigation flow
+* Component-based card layout
 
 ---
 
-## 🔮 Future Enhancements
+## 🔮 Future Improvements
 
-* Backend authentication integration
-* Database connectivity
+* JavaScript authentication logic
+* Backend integration
 * Leave request submission form
-* Role-based dashboards
-* Responsive mobile optimization
-* Dark/light theme toggle
+* Employee profile page
+* Mobile responsive optimization
+* Dark/light theme switch
 
 ---
 
-## 🙋‍♀️ Author
+## 👩‍💻 Author
 
 **Namratha**
-Computer Science Student | Front-End Developer
-Passionate about building interactive and user-friendly web applications.
+Computer Science Student
+Front-End Developer passionate about building modern UI dashboards and interactive web applications.
 
 ---
 
