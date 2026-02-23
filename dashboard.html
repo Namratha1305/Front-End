@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="dashboard-header">
+    <h1>HR Dashboard</h1>
+    <span>Welcome, Employee</span>
+</header>
+
+<section class="kpi-section">
+
+    <div class="kpi-card">
+        <h3>Attendance</h3>
+        <div class="circle attendance">
+            <span>90%</span>
+        </div>
+    </div>
+    <div class="kpi-card">
+        <h3>Leaves Used</h3>
+        <div class="circle leaves">
+            <span>6/20</span>
+        </div>
+    </div>
+    <div class="kpi-card">
+        <h3>Performance</h3>
+        <div class="circle performance">
+            <span>85%</span>
+        </div>
+    </div>
+    <div class="kpi-card">
+        <h3>Compliance</h3>
+        <div class="circle compliance">
+            <span>100%</span>
+        </div>
+    </div>
+
+</section>
+
+<section class="policy-section">
+
+    <div class="policy-card">
+        <h4>Attendance Policy</h4>
+        <p>Maintain punctuality and regular attendance.</p>
+        <a href="#attendanceModal" class="neon-btn">View</a>
+    </div>
+
+    <div class="policy-card">
+        <h4>Leave Policy</h4>
+        <p>Casual, Sick, and Earned leave guidelines.</p>
+        <a href="#leaveModal" class="neon-btn">View</a>
+    </div>
+
+    <div class="policy-card">
+        <h4>Code of Conduct</h4>
+        <p>Professional and ethical workplace behavior.</p>
+        <a href="#conductModal" class="neon-btn">View</a>
+    </div>
+
+</section>
+
+
+<div id="attendanceModal" class="modal">
+    <div class="modal-content">
+        <h3>Attendance Policy</h3>
+        <p>Please maintain punctuality and adhere to office timings.</p>
+
+        <form>
+            <label style="display:block; margin:15px 0;">
+                <input type="checkbox" required>
+                I agree to the Terms & Conditions
+            </label>
+            <br>
+            <a href="#" class="neon-btn" style="background:#444;">Close</a>
+        </form>
+    </div>
+</div>
+
+<div id="leaveModal" class="modal">
+    <div class="modal-content">
+        <h3>Leave Policy</h3>
+        <p>
+            Employees are entitled to Casual, Sick, and Earned Leaves as per company guidelines.
+            Leave requests must be approved by the reporting manager.
+        </p>
+
+        <form>
+            <label style="display:block; margin:15px 0;">
+                <input type="checkbox" required>
+                I agree to the Terms & Conditions
+            </label>
+
+            <br>
+            <a href="#" class="neon-btn" style="background:#444;">Close</a>
+        </form>
+    </div>
+</div>
+
+<div id="conductModal" class="modal">
+    <div class="modal-content">
+        <h3>Code of Conduct</h3>
+        <p>
+            Employees must maintain professionalism, integrity, and ethical behavior
+            within the workplace and while representing the organization.
+        </p>
+
+        <form>
+            <label style="display:block; margin:15px 0;">
+                <input type="checkbox" required>
+                I agree to the Terms & Conditions
+            </label>
+
+            <br>
+            <a href="#" class="neon-btn" style="background:#444;">Close</a>
+        </form>
+    </div>
+</div>
+<footer>
+    © 2026 HR Portal | All Rights Reserved
+</footer>
+</body>
+</html>
